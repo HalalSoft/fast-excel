@@ -1,5 +1,8 @@
 {
     "name": "halalsoft/fast-excel",
+    "replace": {
+      "rap2hpoutre/fast-excel": "^4.0"
+    },
     "type": "library",
     "keywords": [
         "laravel",
@@ -50,9 +53,6 @@
             "email": "raphaelht@gmail.com"
         }
     ],
-    "replace": {
-      "rap2hpoutre/fast-excel":"4.1.0"
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
