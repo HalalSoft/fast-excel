@@ -1,5 +1,8 @@
 {
     "name": "halalsoft/fast-excel",
+    "replace": {
+      "rap2hpoutre/fast-excel": "^4.0"
+    },
     "type": "library",
     "keywords": [
         "laravel",
@@ -22,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rap2hpoutre\\FastExcel\\": "src/"
+            "Halalsoft\\FastExcel\\": "src/"
         },
         "files": [
             "src/functions/fastexcel.php"
@@ -30,13 +33,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Rap2hpoutre\\FastExcel\\Tests\\": "tests/"
+            "Halalsoft\\FastExcel\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rap2hpoutre\\FastExcel\\Providers\\FastExcelServiceProvider"
+                "Halalsoft\\FastExcel\\Providers\\FastExcelServiceProvider"
             ]
         }
     },
