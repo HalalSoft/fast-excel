@@ -51,6 +51,10 @@
         {
             "name": "rap2h",
             "email": "raphaelht@gmail.com"
+        },
+        {
+            "name": "Dyas Yaskur",
+            "email": "dyas@yaskur.com"
         }
     ],
     "minimum-stability": "dev",

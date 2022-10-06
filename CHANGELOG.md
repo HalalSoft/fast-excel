@@ -1,3 +1,8 @@
+# 5.0.0
+- Upgrade to openspout/openspout v4
+- Require PHP >= 8.0 (Disable support for PHP 7.x)
+- Require Laravel >= 6.0 (Disable support for Laravel 5.x)
+
 # 4.1.1
 - Initial folk
 

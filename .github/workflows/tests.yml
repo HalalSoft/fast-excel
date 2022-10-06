@@ -15,8 +15,8 @@ jobs:
       fail-fast: true
       matrix:
         os: [ ubuntu-latest ]
-        php: [ 8.0, 8.1 ]
-        stability: [ stable, highest ]
+        php: [ 8.0, 8.1, 8.2]
+        stability: [ oldest, stable, highest ]
 
     steps:
       - uses: actions/checkout@v3
