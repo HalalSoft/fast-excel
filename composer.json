@@ -9,7 +9,13 @@
         "excel",
         "csv",
         "xls",
-        "xlsx"
+        "xlsx",
+        "spreadsheet",
+        "sheet",
+        "fast",
+        "data",
+        "import",
+        "export"
     ],
     "description": "Fast Excel import/export for Laravel",
     "require": {
