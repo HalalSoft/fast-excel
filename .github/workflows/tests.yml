@@ -16,7 +16,7 @@ jobs:
       matrix:
         os: [ ubuntu-latest ]
         php: [ 8.0, 8.1 ]
-        stability: [ highest ]
+        stability: [ stable, highest ]
 
     steps:
       - uses: actions/checkout@v3
