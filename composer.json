@@ -50,6 +50,9 @@
             "email": "raphaelht@gmail.com"
         }
     ],
+    "replace": {
+      "rap2hpoutre/fast-excel":"4.1.0"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
