@@ -1,3 +1,6 @@
+# 4.1.1
+- Initial folk
+
 # 4.0.0
 - Move from box/spout to openspout/openspout v3 | https://github.com/openspout/openspout
 - Fix phpunit tests
