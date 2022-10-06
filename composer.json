@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HalalSoft\\FastExcel\\": "src/"
+            "Halalsoft\\FastExcel\\": "src/"
         },
         "files": [
             "src/functions/fastexcel.php"
@@ -30,13 +30,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "HalalSoft\\FastExcel\\Tests\\": "tests/"
+            "Halalsoft\\FastExcel\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HalalSoft\\FastExcel\\Providers\\FastExcelServiceProvider"
+                "Halalsoft\\FastExcel\\Providers\\FastExcelServiceProvider"
             ]
         }
     },

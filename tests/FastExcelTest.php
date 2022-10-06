@@ -1,11 +1,11 @@
 <?php
 
-namespace HalalSoft\FastExcel\Tests;
+namespace Halalsoft\FastExcel\Tests;
 
 use OpenSpout\Common\Entity\Style\Color;
 use OpenSpout\Writer\Common\Creator\Style\StyleBuilder;
-use HalalSoft\FastExcel\FastExcel;
-use HalalSoft\FastExcel\SheetCollection;
+use Halalsoft\FastExcel\FastExcel;
+use Halalsoft\FastExcel\SheetCollection;
 
 /**
  * Class FastExcelTest.

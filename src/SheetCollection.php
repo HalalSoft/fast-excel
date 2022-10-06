@@ -1,6 +1,6 @@
 <?php
 
-namespace HalalSoft\FastExcel;
+namespace Halalsoft\FastExcel;
 
 use Illuminate\Support\Collection;
 

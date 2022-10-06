@@ -1,6 +1,6 @@
 <?php
 
-namespace HalalSoft\FastExcel\Tests;
+namespace Halalsoft\FastExcel\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

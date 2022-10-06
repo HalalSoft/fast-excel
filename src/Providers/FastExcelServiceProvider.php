@@ -1,6 +1,6 @@
 <?php
 
-namespace HalalSoft\FastExcel\Providers;
+namespace Halalsoft\FastExcel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -30,7 +30,7 @@ class FastExcelServiceProvider extends ServiceProvider
                 $data = collect($data);
             }
 
-            return new \HalalSoft\FastExcel\FastExcel($data);
+            return new \Halalsoft\FastExcel\FastExcel($data);
         });
     }
 }

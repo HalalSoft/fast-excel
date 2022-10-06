@@ -1,8 +1,8 @@
 <?php
 
-namespace HalalSoft\FastExcel\Tests;
+namespace Halalsoft\FastExcel\Tests;
 
-use HalalSoft\FastExcel\FastExcel;
+use Halalsoft\FastExcel\FastExcel;
 
 /**
  * Class ChunkTest.

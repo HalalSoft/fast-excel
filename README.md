@@ -2,11 +2,11 @@
 <img src="https://user-images.githubusercontent.com/36028424/40173202-9a03d68a-5a03-11e8-9968-6b7e3b4f8a1b.png">
 </p>
 
-[![Version](https://poser.pugx.org/HalalSoft/fast-excel/version?format=flat)](https://packagist.org/packages/HalalSoft/fast-excel)
-[![License](https://poser.pugx.org/HalalSoft/fast-excel/license?format=flat)](https://packagist.org/packages/HalalSoft/fast-excel)
+[![Version](https://poser.pugx.org/Halalsoft/fast-excel/version?format=flat)](https://packagist.org/packages/Halalsoft/fast-excel)
+[![License](https://poser.pugx.org/Halalsoft/fast-excel/license?format=flat)](https://packagist.org/packages/Halalsoft/fast-excel)
 [![StyleCI](https://github.styleci.io/repos/128174809/shield?branch=master)](https://github.styleci.io/repos/128174809?branch=master)
-[![Tests](https://github.com/HalalSoft/fast-excel/actions/workflows/tests.yml/badge.svg)](https://github.com/HalalSoft/fast-excel/actions/workflows/tests.yml)
-[![Total Downloads](https://poser.pugx.org/HalalSoft/fast-excel/downloads)](https://packagist.org/packages/HalalSoft/fast-excel)
+[![Tests](https://github.com/Halalsoft/fast-excel/actions/workflows/tests.yml/badge.svg)](https://github.com/Halalsoft/fast-excel/actions/workflows/tests.yml)
+[![Total Downloads](https://poser.pugx.org/Halalsoft/fast-excel/downloads)](https://packagist.org/packages/Halalsoft/fast-excel)
 
 Fast Excel import/export for Laravel, thanks to [Spout](https://github.com/box/spout).
 See [benchmarks](#benchmarks) below.
@@ -16,13 +16,13 @@ See [benchmarks](#benchmarks) below.
 Install via composer:
 
 ```
-composer require HalalSoft/fast-excel
+composer require Halalsoft/fast-excel
 ```
 
 Export a Model to `.xlsx` file:
 
 ```php
-use HalalSoft\FastExcel\FastExcel;
+use Halalsoft\FastExcel\FastExcel;
 use App\User;
 
 // Load users
@@ -100,7 +100,7 @@ $users = (new FastExcel)->import('file.xlsx', function ($line) {
 You may use FastExcel with the optional Facade. Add the following line to ``config/app.php`` under the ``aliases`` key.
 
 ````php
-'FastExcel' => HalalSoft\FastExcel\Facades\FastExcel::class,
+'FastExcel' => Halalsoft\FastExcel\Facades\FastExcel::class,
 ````
 
 Using the Facade, you will not have access to the constructor. You may set your export data using the ``data`` method.

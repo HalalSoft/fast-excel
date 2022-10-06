@@ -1,11 +1,11 @@
 <?php
 
-namespace HalalSoft\FastExcel\Tests;
+namespace Halalsoft\FastExcel\Tests;
 
 use Illuminate\Support\Collection;
 use OpenSpout\Reader\Common\Creator\ReaderEntityFactory;
-use HalalSoft\FastExcel\FastExcel;
-use HalalSoft\FastExcel\SheetCollection;
+use Halalsoft\FastExcel\FastExcel;
+use Halalsoft\FastExcel\SheetCollection;
 
 /**
  * Class IssuesTest.

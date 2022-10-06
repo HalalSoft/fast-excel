@@ -1,12 +1,12 @@
 <?php
 
-use HalalSoft\FastExcel\SheetCollection;
+use Halalsoft\FastExcel\SheetCollection;
 
 if (!function_exists('fastexcel')) {
     /**
      * Return app instance of FastExcel.
      *
-     * @return HalalSoft\FastExcel\FastExcel
+     * @return Halalsoft\FastExcel\FastExcel
      */
     function fastexcel($data = null)
     {
